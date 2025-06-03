@@ -6,10 +6,13 @@ EchoMind is a cutting-edge Learning Management System (LMS) SaaS application bui
 ![EchoMind_Home.png](public/images/EchoMind_Home.png)
 **Figure 1: EchoMind SaaS Home page**
 
+
+
 ## 🌐 Live Demo
 EchoMind is live and ready to explore! Check out the deployed app at:👉 https://echo-mind-saas-app.vercel.app/ 
 
 Sign up, explore courses, and experience voice-driven learning with AI tutors in action.
+
 
 
 ## 🛠️ Tech Stack
@@ -30,6 +33,7 @@ Sign up, explore courses, and experience voice-driven learning with AI tutors in
 **Zod**: A TypeScript-first schema validation library for ensuring data integrity.
 
 **Sentry**: Provides error tracking and performance monitoring for debugging and optimization.
+
 
 
 ## ✨ Key Features
@@ -54,6 +58,7 @@ Sign up, explore courses, and experience voice-driven learning with AI tutors in
 **Figure 2: Companion AI tutor**
 
 Experience an AI tutoring session with the API Tutor companion.
+
 
 
 ## 🛠️ Technical Implementation Details
@@ -87,6 +92,8 @@ Vapi enables EchoMind’s voice-driven learning sessions with AI-powered tutors:
 - **Voice Agents**: Vapi’s API is used to create conversational AI agents specializing in various subjects. The NEXT_PUBLIC_VAPI_WEB_TOKEN is used to authenticate API requests, and agents are configured with custom voices, languages, and conversational styles.
 - **Real-Time Interaction**: Vapi’s low-latency speech-to-text and text-to-speech capabilities are integrated into the frontend using WebRTC, allowing users to interact with tutors via voice in real time.
 - **Session Management**: Session data (e.g., conversation transcripts) is stored in Supabase, with Vapi’s API providing endpoints to start, stop, and manage sessions. The frontend uses React state to handle session lifecycle events.
+
+
 
 ## 🚀 Quick Start
 Follow these steps to set up EchoMind locally on your machine.
@@ -141,9 +148,11 @@ npm run dev
 Open http://localhost:3000 in your browser to explore EchoMind locally.
 
 
+
 ## 📢 Acknowledgments
 
 Inspired by JavaScript Mastery’s SaaS App Tutorial.
+
 Thanks to the open-source community for tools like Supabase, Clerk, and Vapi.
 
 
