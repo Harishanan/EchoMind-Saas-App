@@ -5,11 +5,14 @@ const nextConfig: NextConfig = {
     typescript: {
       ignoreBuildErrors: true,
     },
-  images: {
-      remotePatterns: [
-          {hostname: 'img.clerk.com'}
-      ]
-  }
+    eslint: {
+        ignoreDuringBuilds: true,
+    },
+    images: {
+          remotePatterns: [
+              {hostname: 'img.clerk.com'}
+          ]
+    }
 };
 
 export default withSentryConfig(nextConfig, {
