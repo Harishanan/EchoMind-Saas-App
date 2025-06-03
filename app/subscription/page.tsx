@@ -3,7 +3,10 @@ import {PricingTable} from "@clerk/nextjs";
 
 const Subscription = () => {
     return (
-        <PricingTable />
+        <main>
+            <PricingTable />
+        </main>
+
     )
 }
 export default Subscription
